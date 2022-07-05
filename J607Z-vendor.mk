@@ -1766,6 +1766,7 @@ PRODUCT_PACKAGES += \
     IWlanService \
     TimeService \
     com.qualcomm.qti.gpudrivers.lito.api30 \
+    gpu_profiling_vulkan_layer \
     PowerOffAlarm \
     DeviceInfo \
     QtiTelephonyService \
