@@ -222,8 +222,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/J607Z/proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcsconfig@2.1.so \
     vendor/lenovo/J607Z/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.0.so \
     vendor/lenovo/J607Z/proprietary/system_ext/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.latency@2.0.so \
-    vendor/lenovo/J607Z/proprietary/system_ext/priv-app/DolbySound/DolbySound.apk:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/DolbySound/DolbySound.apk \
-    vendor/lenovo/J607Z/proprietary/system_ext/priv-app/daxService/daxService.apk:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/daxService/daxService.apk \
     vendor/lenovo/J607Z/proprietary/vendor/bin/adpl:$(TARGET_COPY_OUT_VENDOR)/bin/adpl \
     vendor/lenovo/J607Z/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/lenovo/J607Z/proprietary/vendor/bin/audioflacapp:$(TARGET_COPY_OUT_VENDOR)/bin/audioflacapp \
@@ -1825,7 +1823,9 @@ PRODUCT_PACKAGES += \
     embms \
     imssettings \
     uceShimService \
+    DolbySound \
     WfdService \
+    daxService \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
