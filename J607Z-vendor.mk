@@ -1855,7 +1855,6 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3-service-qti \
     android.hardware.sensors@2.0-multihal \
     manifest_android.hardware.drm@1.3-service.widevine \
-    vendor.dolby.hardware.dms \
     vendor.qti.gnss@4.0-service \
     vendor.qti.hardware.display.composer-service \
     vendor.qti.hardware.servicetracker@1.2-service
